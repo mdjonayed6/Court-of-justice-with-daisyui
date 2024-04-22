@@ -24,6 +24,7 @@
                 extend: {
                     colors: {
                         'primary-color': '#B68C5A',
+                        'sub-color': '#F3F3F3',
 
                     }
                 }
@@ -329,7 +330,7 @@
                         majority <br> have suffered
                         alteration in some form, by injected humour.</p>
                 </div>
-                <div class="flex items-center justify-center gap-14 mt-20">
+                <div class="flex flex-col lg:flex-row items-center justify-center gap-14 mt-20">
                     <div class="space-y-3 w-3/4">
                         <!-- FAQ 1 -->
                         <div class="collapse collapse-plus bg-base-200">
@@ -395,6 +396,57 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="container mx-auto lg:px-24 px-8 my-12">
+            <!-- Contact Section  -->
+            <div class="flex flex-col items-center justify-center text-center space-y-4 mt-20">
+                <h2 class="text-3xl font-extrabold">Contact with US</h2>
+                <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have <br> suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row mt-20">
+                <div class="grid grid-cols-2 gap-4 w-full lg:w-1/2">
+                    <!-- address 1 -->
+                    <div
+                        class="bg-sub-color  rounded text-center flex flex-col items-center justify-center space-y-2">
+                        <img src="images/location.png" alt="">
+                        <h4 class="text-lg font-bold">Address</h4>
+                        <p>A108 Adam Street, <br>New York, NY 535022</p>
+                    </div>
+                    <!-- address 2 -->
+                    <div
+                        class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
+                        <img src="images/call.png" alt="">
+                        <h4 class="text-lg font-bold">Call Us</h4>
+                        <p>+88 01750 00 00 00 <br>+88 01750 00 00 00</p>
+                    </div>
+                    <!-- address 3 -->
+                    <div
+                        class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
+                        <img src="images/email.png" alt="">
+                        <h4 class="text-lg font-bold">Email Us</h4>
+                        <p>info@gmail.com <br>info@gmail.com</p>
+                    </div>
+                    <!-- address 4 -->
+                    <div
+                        class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
+                        <img src="images/time.png" alt="">
+                        <h4 class="text-lg font-bold">Working Hour</h4>
+                        <p>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 flex items-center justify-center mt-4 lg:mt-0 space-y-4 flex-col">
+                    <input class="bg-sub-color w-full lg:w-80 p-6 rounded-lg" type="text" placeholder="Your Name">
+                    <input class="bg-sub-color w-full lg:w-80 p-6 rounded-lg" type="email" placeholder="Your Email">
+                    <input class="bg-sub-color w-full lg:w-80 h-32 p-6 rounded-lg" type="text"
+                        placeholder="Your Message">
+                    <button class="btn bg-primary-color w-full lg:w-80 font-extrabold py-2 text-white">Send
+                        Message</button>
+                </div>
+            </div>
+
+
         </section>
     </main>
 
