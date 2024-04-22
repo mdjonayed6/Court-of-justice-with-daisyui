@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome Link here  -->
+    <script src="https://kit.fontawesome.com/f067612441.js" crossorigin="anonymous"></script>
+
     <!-- Tailwind Customs Color Design  -->
     <script>
         tailwind.config = {
@@ -63,24 +66,22 @@
                             </div>
                             <ul tabindex="0"
                                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box text-lg w-52">
-                                <li class=""> <a>Home<img class="w-5 h-5" src="images/icon1.png" alt=""></a>
-                                </li>
-                                <li><a>Services <img class="w-5 h-5" src="images/icon1.png" alt=""> </a> </li>
-                                <li><a>Cases <img class="w-5 h-5" src="images/icon1.png" alt=""></a></li>
-                                <li><a>Blogs <img class="w-5 h-5" src="images/icon1.png" alt=""></a></li>
-                                <li><a> Contact us <img class="w-5 h-5" src="images/icon1.png" alt=""> </a></li>
+                                <li> <a>Home</a> </li>
+                                <li><a>Services</a> </li>
+                                <li><a>Cases</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a> Contact Us </a></li>
                             </ul>
                         </div>
                         <a href="index.html"><img src="images/logo2.png" alt=""></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu text-lg font-semibold menu-horizontal px-1">
-                            <li class=""> <a>Home<img class="w-5 h-5" src="images/icon1.png" alt=""></a>
-                            </li>
-                            <li><a>Services <img class="w-5 h-5" src="images/icon1.png" alt=""> </a> </li>
-                            <li><a>Cases <img class="w-5 h-5" src="images/icon1.png" alt=""></a></li>
-                            <li><a>Blogs <img class="w-5 h-5" src="images/icon1.png" alt=""></a></li>
-                            <li><a> Contact us <img class="w-5 h-5" src="images/icon1.png" alt=""> </a></li>
+                            <li> <a>Home</a> </li>
+                            <li><a>Services</a> </li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a> Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="navbar-end">
@@ -408,29 +409,25 @@
             <div class="flex flex-col lg:flex-row mt-20">
                 <div class="grid grid-cols-2 gap-4 w-full lg:w-1/2">
                     <!-- address 1 -->
-                    <div
-                        class="bg-sub-color  rounded text-center flex flex-col items-center justify-center space-y-2">
+                    <div class="bg-sub-color  rounded text-center flex flex-col items-center justify-center space-y-2">
                         <img src="images/location.png" alt="">
                         <h4 class="text-lg font-bold">Address</h4>
                         <p>A108 Adam Street, <br>New York, NY 535022</p>
                     </div>
                     <!-- address 2 -->
-                    <div
-                        class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
+                    <div class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
                         <img src="images/call.png" alt="">
                         <h4 class="text-lg font-bold">Call Us</h4>
                         <p>+88 01750 00 00 00 <br>+88 01750 00 00 00</p>
                     </div>
                     <!-- address 3 -->
-                    <div
-                        class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
+                    <div class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
                         <img src="images/email.png" alt="">
                         <h4 class="text-lg font-bold">Email Us</h4>
                         <p>info@gmail.com <br>info@gmail.com</p>
                     </div>
                     <!-- address 4 -->
-                    <div
-                        class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
+                    <div class="bg-sub-color rounded text-center flex flex-col items-center justify-center space-y-2">
                         <img src="images/time.png" alt="">
                         <h4 class="text-lg font-bold">Working Hour</h4>
                         <p>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
@@ -450,8 +447,46 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer p-10 bg-black text-white text-base-content">
+        <div>
+            <img src="images/logo.png" alt="">
+            <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered
+                alteration
+                in <br> some form, by injected humour.</p>
+        </div>
+        <nav>
+            <h6 class="text-lg font-extrabold text-white">Useful Links</h6>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">Services</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blogs</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav>
+            <h6 class="text-lg font-extrabold text-white">Contact Now</h6>
+            <p>555 4th 5t NW, Washington <br>
+                DC 20530, United States</p>
+            <p>+88 01750 000 000 <br>
+                +88 01750 000 000</p>
+            <p>info@gmail.com <br>
+                info@gmail.com</p>
+        </nav>
 
+        <form>
+            <h6 class="text-lg font-extrabold text-white">Subscribe</h6>
+            <p>Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text text-white">Enter your email address</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                    <button class="btn bg-primary-color border-none join-item">
+                        <img class="w-8 h-8 mb-2" src="images/send.png" alt="">
+                    </button>
+                </div>
+            </fieldset>
+        </form>
     </footer>
 </body>
 
